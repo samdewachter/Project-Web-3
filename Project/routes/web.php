@@ -16,9 +16,8 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/contact', function () {
-    return view('contact.index');
-});
+Route::get('/contact', 'ContactController@index');
+Route::post('/contact/sendmail', 'ContactController@sendMail');
 
 Route::get('/browse', 'BrowseController@index');
 Route::get('/browse/game/{id}', 'BrowseController@showGame');
