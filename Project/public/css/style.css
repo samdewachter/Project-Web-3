@@ -1,0 +1,747 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+/* NAVIGATION */
+
+	.navbar-default {
+		background-image: none;
+		background-color: black;
+		height: 90px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar-left {
+		float: left;
+	}
+	.navbar-static-top {
+		border-width: 0px;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+		color: #06c9db;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover {
+		color: #06c9db;
+		text-decoration: underline;
+	}
+
+	.navbar-collapse {
+		margin-top: 15px;
+	}
+
+	.active-nav {
+		text-decoration: underline;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	.navbar-brand {
+		height: 90px;
+	  	padding: 0px;
+	}
+	.navbar-brand>img {
+		  height: 100%;
+		  padding: 15px;
+		  width: auto;
+	}
+
+	.dropdown-menu {
+		background-color: black;
+		color: #06c9db;
+	}
+
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+		background-color: black;
+		color: #06c9db;	
+	}
+
+	.dropdown-menu>li>a {
+		text-align: right;
+		color: #06c9db;
+	}
+
+	.dropdown-menu>li>a:hover {
+		text-decoration: underline;
+			background-color: black;
+		color: #06c9db;	
+	}
+
+	.line-account {
+		border-top: 1px solid #06c9db;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+
+/*HOMEPAGE*/
+
+
+	.header-img {
+		margin-top: -5px;
+		padding: 0;
+		width: 100vw;
+		margin-bottom: 50px;
+	}
+
+	.intro-container {
+		position: relative; 
+	}
+
+	.home-title { 
+	   position: absolute; 
+	   top: 40px; 
+	   left: 300px; 
+	}
+
+	.home-text {
+		position: absolute; 
+	   	top: 120px; 
+	   	left: 300px; 
+	   	width: 50%; 
+	   	line-height: 200%;
+	}
+
+	.front span { 
+	   color: white;  
+	   letter-spacing: -1px;  
+	   padding: 10px; 
+	}
+	.link {
+		display: -webkit-flex;
+		display: flex;
+	 	justify-content: center;
+	  	align-items: center;
+		color:  #06c9db;
+		background-color: black;
+		height: 200px;
+		width: 200px;
+		margin: 30px;
+	}
+
+	.row-center {
+	  text-align:center;
+	}
+
+	.col-center {
+	  display:inline-block;
+	  float:none;
+	}
+
+	.box {
+		color: white;  
+	 	background-color: rgba(5,4,2,0.3);
+		margin-left:auto;
+		margin-right:auto;
+		padding: 8px; 
+	}
+
+	.box-text {
+		color: white;  
+	 	background-color: rgba(5,4,2,0.3);
+	 	margin-top: 10px;
+		margin-left:auto;
+		margin-right:auto;
+		width: 70%;
+		padding: 8px;
+	}
+
+	.home-title h1 {
+		margin-bottom: 10px;
+	}
+
+	.info-icon {
+		font-size: 80px;
+	}
+	.panel {
+		margin-top: 20px;
+	}
+
+	.panel-default {
+		border-color: black;
+	}
+
+	.panel-default > .panel-heading {
+		background-color: black;
+		color: #06c9db;
+	}
+
+	.panel-heading {
+		background-color: black;
+		color: #06c9db;
+	}
+
+	.btn-primary{
+		background-color: #262626;
+		border: none;
+		color: #06c9db;
+	}
+
+	.btn-primary:hover {
+		background-color: #4d4d4d;
+		color: #51ecfb;
+	}
+
+	.jumbotron {
+		background-image: url('../img/controller.jpg');
+		background-size: cover;
+		height: 400px;
+		text-align: center;
+		background-color: none;
+	    background-repeat: no-repeat;
+	    color: #06c9db;
+	    background-position: center top;
+	}
+
+	.jumbotron p {
+		padding-top: 10px;
+	}
+
+/*BROWSE PAGE*/
+
+.searchbar {
+	margin-top: 20px;
+}
+
+.more-info-box {
+	padding: 20px;
+}
+
+.clear-link {
+	color: white;
+}
+
+ul {
+  list-style-type: none;
+  	padding: 5px;
+}
+
+.links-console {
+	color: #06c9db;
+	list-style-type: none;
+	text-decoration: none;
+
+}
+
+.links-console:hover {
+	color: #06c9db;
+
+}
+
+.dropdown-filter {
+	float: right;
+}
+
+
+ .toggle-filter {
+
+ 	cursor: pointer; cursor: hand;
+ }
+
+ .toggle-rotate {
+ 	 transform: rotate(180deg);
+ }
+
+ .game-preview {
+
+ 	position: relative;
+ 	height: 300px;
+ 	width: 100%;
+ 	background-color: white;
+ 	border-style: none solid solid solid;
+ 	border-width: 10px;
+ 	border-color: black;
+ }
+
+ .panel-games {
+ 	background-color: black;
+ }
+
+ .panel-browse {
+ 	padding-top: 10px;
+ 	padding-bottom: 0px;
+ }
+
+ .preview-image {
+
+ 	width: 200px;
+ }
+
+ .preview-image-box {
+ 	
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+ }
+
+ .flex-box {
+ 	 	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+
+  .flex-box h1 {
+ 	 display: inline-block;
+ 	 margin: 50px;
+ }
+ .img-box {
+ 	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+
+ .preview-descr {
+ 	height: 150px;
+ 	text-align: left;
+ 	left: 250px;
+ 	top:20px;
+ 	position: absolute;
+ }
+
+ .bold {
+ 	font-weight: bold;
+ }
+
+/* ACCOUNT PAGINA */
+.delete-game {
+	margin-top: 20px;
+}
+ .account-games {
+ }
+
+ .account-title {
+ 	background-color: black;
+ 	color: #06c9db;
+ 	border-radius: 10px;
+ 	margin: 0px;
+ 	
+ }
+
+ .account-heading {
+ 	border-bottom: 4px solid #06c9db;
+ }
+
+  .account-info {
+  	height: 40vh;
+ }
+
+  .account-review {
+  	height: 40vh;
+ }
+
+ .account-items {
+ 	float: right;
+ }
+
+ .info-list {
+ 	margin-bottom: 5px;
+ }
+
+ .game-preview-account {
+
+ 	position: relative;
+ 	height: 300px;
+ 	width: 100%;
+ 	background-color: white;
+
+ }
+
+.line-account-page {
+	  border-top: 2px solid black;
+	  width: 100%;
+	  margin-bottom: 10px;
+}
+
+.fa-user {
+	font-size: 50px;
+	margin: 10px;
+}
+
+.fa-star {
+	color: #DAA520;
+}
+
+
+ /* PROFILE */
+
+ .profile-left {
+ 	border: 2px solid lightgrey;
+ 	padding: 15px;
+    box-shadow: 10px 10px 5px #888888;
+ }
+
+ .user-picture {
+ 	width: 100%;
+ 	margin-bottom: 5px;
+ }
+
+ .user-info {
+ 	margin: 0 auto 0 auto;
+ }
+
+ .user-info-col {
+ 	margin: 5px 0 0 0;
+ 	background-color: lightgrey;
+ 	padding: 10px;
+ }
+
+.user-profile {
+	margin-top: 20px;
+}
+
+.box-contact {
+	color: #06c9db;  
+	text-align: center;
+ 	background-color: black;
+ 	margin: 20px;
+	padding: 8px; 
+}
+
+.panel-heading {
+	font-size: 28px;
+}
+
+.glyphicon-menu-down {
+	color: #06c9db;
+}
+
+.glyphicon-menu-up {
+	color: #06c9db;
+}
+
+.line {
+  border-top: 2px solid #06c9db;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.line-browse {
+  border-top: 2px solid #06c9db;
+  width: 100%;
+}
+
+.search-engine {
+	margin-top: 20px;
+}
+
+.form-control {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.panel-filters {
+	color: #06c9db;
+	background-color: black;
+}
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+.commenter-picture {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+
+.review {
+	margin-bottom: 10px;
+}
+
+.user-game-img {
+	width: 100%;
+}
+
+.footer-commenter-text button {
+	float: right;
+	font-size: 12px;
+	margin-bottom: 13px;
+}
+
+.footer-commenter-text i {
+
+	margin-right: 8px;
+}
+
+/* GAME PAGE */
+
+.game-picture {
+	width: 100%;
+}
+
+.game {
+	margin-top: 20px;
+}
+
+.game-body {
+	margin-bottom: 50px;
+}
+
+.game-title {
+	background-color: black;
+	color: #06c9db;
+	display: inline-block;
+	padding: 5px;
+}
+
+/* ADD GAME */
+
+/* ADMIN DASHBOARD */
+
+.flex-center {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-box {
+	margin-top: 25px;
+	position: relative;
+	height: 100%;
+}
+
+.admin-dash a {
+	color: black;
+	font-size: 20px;
+
+}
+
+.admin-dash a:hover {
+	color: #333333;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.admin-icon {
+	height: 120px;
+	width: auto;
+}
+
+.admin-dash i {
+	font-size: 100px;
+}
+
+.back-link {
+	margin-left: 20px;
+}
+
+.back-link i {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.jumbotron-dash {
+	margin: 0px;
+}
+
+/* HOVERIO */
+	/* Grow */
+		.hvr-grow {
+		  display: inline-block;
+		  vertical-align: middle;
+		  -webkit-transform: perspective(1px) translateZ(0);
+		  transform: perspective(1px) translateZ(0);
+		  box-shadow: 0 0 1px transparent;
+		  -webkit-transition-duration: 0.3s;
+		  transition-duration: 0.3s;
+		  -webkit-transition-property: transform;
+		  transition-property: transform;
+		}
+		.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+		  -webkit-transform: scale(1.1);
+		  transform: scale(1.1);
+		}
+
+	/* Sink */
+
+	.hvr-sink {
+	  display: inline-block;
+	  vertical-align: middle;
+	  -webkit-transform: perspective(1px) translateZ(0);
+	  transform: perspective(1px) translateZ(0);
+	  box-shadow: 0 0 1px transparent;
+	  -webkit-transition-duration: 0.3s;
+	  transition-duration: 0.3s;
+	  -webkit-transition-property: transform;
+	  transition-property: transform;
+	  -webkit-transition-timing-function: ease-out;
+	  transition-timing-function: ease-out;
+	}
+	.hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
+	  -webkit-transform: translateY(4px);
+	  transform: translateY(4px);
+	}
+
+	.hvr-up {
+	  display: inline-block;
+	  vertical-align: middle;
+	  -webkit-transform: perspective(1px) translateZ(0);
+	  transform: perspective(1px) translateZ(0);
+	  box-shadow: 0 0 1px transparent;
+	  -webkit-transition-duration: 0.3s;
+	  transition-duration: 0.3s;
+	  -webkit-transition-property: transform;
+	  transition-property: transform;
+	  -webkit-transition-timing-function: ease-out;
+	  transition-timing-function: ease-out;
+	}
+	.hvr-up:hover, .hvr-up:focus, .hvr-up:active {
+	  -webkit-transform: translateY(-4px);
+	  transform: translateY(-4px);
+	}
+
+/* FILTER CHECKBOXES */
+
+	.filter-check {
+	    display:none;
+	}
+	.filter-check + label  {
+	    display:inline-block;
+	    width:19px;
+	    height:19px;
+	    margin:-1px 4px 7px 0;
+	    vertical-align:middle;
+	    background:url(img/check_radio_sheet.png) left top no-repeat;
+	    cursor:pointer;
+	}
+	input[type="checkbox"]:checked + label  {
+	    background:url(img/check_radio_sheet.png) -19px top no-repeat;
+	}
+
+	#consoles-toggle span {
+		white-space:nowrap;
+		width: 60%;
+		margin-left: 20px;
+	}
+
+	#genres-toggle span {
+		white-space:nowrap;
+		width: 60%;
+		margin-left: 20px;
+	}
+
+/* HAMBURGER */
+
+	.hamburger{
+	  background:none;
+	  position:absolute;
+	  top:0;
+	  right:0;
+	  line-height:45px;
+	  padding:5px 15px 0px 15px;
+	  color:#06c9db;
+	  border:0;
+	  font-size:1.4em;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+
+	.cross{
+	  background:none;
+	  position:absolute;
+	  top:0px;
+	  right:0;
+	  padding:5px 15px 0px 15px;
+	  color:#06c9db;
+	  border:0;
+	  font-size:1.4em;
+	  line-height:45px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+
+	.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:absolute; text-align:center;}
+	.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+	.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+	.menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+	.menu ul li a { text-decoration:none;  margin: 0px; color:#06c9db;}
+	.menu ul li a:hover {  color: #06c9db; text-decoration:none;}
+	.menu a{text-decoration:none; color:#06c9db;}
+	.menu a:hover{text-decoration:none; color:#06c9db;}
+
+	header{
+		width:100%; 
+		background:black; 
+		height:60px; 
+		line-height:60px;
+	}
+
+	.logo-hamburger {
+		height: 60px;
+		padding-left: 10px;
+	}
+
+	.hamburger-menu {
+		display: none;
+	}
+
+	.line-hamburger {
+	  border-top: 2px solid #06c9db;
+	  width: 100%;
+	}
+
+@media (max-width: 760px){
+	.hamburger-menu {
+		display: block;
+	}
+
+	.navbar-default {
+		display: none;
+	}
+
+	.img-box {
+		height: auto;
+	}
+
+	.game-preview {
+		height: 600px;
+	}
+}
+
+.green {
+	color: green;
+}
