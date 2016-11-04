@@ -49,4 +49,12 @@ class User extends Authenticatable
     {
         return (bool) $this->attributes['admin'];
     }
+
+    protected static function boot() {
+        parent::boot();
+
+        static::deleting(function($user){
+            $user->Games()->delete();
+        });
+    }
 }

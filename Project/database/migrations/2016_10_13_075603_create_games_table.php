@@ -18,7 +18,7 @@ class CreateGamesTable extends Migration
             $table->string('name');
             $table->string('console');
             $table->string('genre');
-            $table->integer('user_id');
+            $table->integer('user_id')references('id')->on('users')->onDelete('cascade');
             $table->string('photoUrl');
             $table->text('description');
             $table->softDeletes();
